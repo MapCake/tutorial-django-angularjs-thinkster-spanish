@@ -1,4 +1,4 @@
-## Serializando los modelos User y UserProfile
+# Serializando los modelos User y UserProfile
 La aplicación AngularJS que estamos construyendo, hará peticiones AJAX al servidor para obtener los datos que debería mostrar. Antes de poder enviar estos datos al cliente, necesitamos darles un formato de forma que el cliente puede interpretarlos; en este caso hemos elegido JSON. El proceso de transformar los modelos Django en JSON se llama serialización y es de lo que vamos a hablar a continuación.
 
 {video: serialize-account-model}
