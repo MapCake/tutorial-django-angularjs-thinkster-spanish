@@ -7,7 +7,7 @@ In this tutorial you will build a simplified Google+ clone called “Not Google 
 ## Capitulos
 
  1.  [Introducción](capitulo00.md)
- 2.  [Extendiendo el modelo por defecto User de Django](capitulo01.md)
+ 2.  [Extendiendo el modelo User por defecto de Django](capitulo01.md)
  3.  [Serializando los modelos User y UserProfile](capitulo02.md)
  4.  [Registrando nuevos usuarios](capitulo03.md)
  5.  [Conectando a los usuarios](capitulo04.md)
