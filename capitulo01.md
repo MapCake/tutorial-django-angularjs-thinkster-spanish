@@ -1,4 +1,4 @@
-# Extendiendo el modelo por defecto User de Django
+# Extendiendo el modelo User por defecto de Django
 Django posee un modelo `User` que ofrece muchas funcionalidades. El problema con este modelo `User` es que no se puede ampliar para incluir mas información. Por ejemplo, estaremos dando a nuestros usuarios un lema que se mostrará en su perfil. El modelo `User` de Django no tiene este atributo y no podemos añadir.
 
 El modelo `User` hereda de `AbstractBaseUser`. De aqui es de donde `User` obtiene la mayoría de sus funcionalidades. Creando un nuevo modelo llamado ``Account`` y heredando de `AbstractBaseUser`, tendremos las funcionalidades necesarias de `User` (ocultado de password, gestión de sesiones, etc) y seremos capaces de extender ``Account`` para incluir información extra, como el lema (tagline). 
